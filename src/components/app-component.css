@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+.glasses-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 13rem;
+    width: 230px;
+}
+.big-cup{
+    height: 20rem;
+    width: 9rem;
+    background-color: white;
+    border: solid 4px rgb(7, 66, 167);
+    border-radius: 0 0 2.5rem 2.5rem;
+    overflow: hidden;
+}
+.whater{
+    background-color: rgb(102, 176, 237);
+    width: 100%;
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.hollow{
+    width: 100%;
+    transition: all .3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+.whater-active-0{
+    height: 0rem;
+}
+.whater-active-1{
+    height: 2.5rem;
+}
+.whater-active-2{
+    height: 5rem;
+}
+.whater-active-3{
+    height: 7.5rem;
+}
+.whater-active-4{
+    height: 10rem;
+}
+.whater-active-5{
+    height: 12.5rem;
+}
+.whater-active-6{
+    height: 15rem;
+}
+.whater-active-7{
+    height: 17.5rem;
+}
+.whater-active-8{
+    height: 20rem;
+}
+
+
+.hollow-active-0{
+    height: 20rem;
+}
+.hollow-active-1{
+    height: 17.5rem;
+}
+.hollow-active-2{
+    height: 15rem;
+}
+.hollow-active-3{
+    height: 12.5rem;
+}
+.hollow-active-4{
+    height: 10rem;
+}
+.hollow-active-5{
+    height: 7.5rem;
+}
+.hollow-active-6{
+    height: 5rem;
+}
+.hollow-active-7{
+    height: 2.5rem;
+}
+.hollow-active-8{
+    height: 0rem;
+}
